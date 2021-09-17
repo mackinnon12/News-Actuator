@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <title>Mank's News</title>
+    <!-- All Code by Mank.club, all RSS feeds are from cbc.ca -->
+  </head>
+    <body>
+      <!-- Nav Bar -->
+      <nav id="navbarTop" class="navbar sticky-top navbar-light bg-light">
+        <a id="topStoriesGenre" class="navbar-brand" onclick="javascript:newsStories(this.id); return false;">Top Stories</a>
+        <a class="navbar-brand" id="nav-divider">|</a>
+        <a id="canadaGenre" class="navbar-brand" onclick="javascript:newsStories(this.id); return false;">Canada</a>
+        <a class="navbar-brand" id="nav-divider">|</a>
+        <a id="politicsGenre" class="navbar-brand" onclick="javascript:newsStories(this.id); return false;">Politics</a>
+        <a class="navbar-brand" id="nav-divider">|</a>
+        <a id="sportsGenre" class="navbar-brand" onclick="javascript:newsStories(this.id); return false;">Sports</a>
+      </nav>
+      <!-- Nav Bar End-->
+      <div class="container">
+        <!-- Stories -->
+        <div class="topStories">
+          <h1 id="titleh1" ></h1>
+          <table id="topStories">          
+          </table>
+        <!-- Stories End-->
+        </div>
+      </div>
+      <footer id="footer"> 
+        Designed by <a href="https://mank.club/">Mank</a>
+      </div>
+    </div>
+  </footer>
+    </body>
+  </html>
+</html>
