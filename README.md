@@ -3,4 +3,4 @@ This is website I created pulls from an RSS feed, using an api I convert the xml
 
 Live Version: https://news.mank.club/
 
-![alt text](https://pics.mank.club/2HzFQ.png)
+![alt text](https://pics.mank.club/npcc0.png)
